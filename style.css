@@ -74,7 +74,7 @@ ul a {
 .hamburger .bar {
   position: relative;
   width: 52%;
-  height: 1.5px;
+  height: 1px;
   background-color: #fff;
   border-radius: 2px;
 }
@@ -101,4 +101,95 @@ ul a {
 main {
   background-color: antiquewhite;
   height: 100vh;
+  overflow: hidden;
+}
+
+.bg-image {
+  position: absolute;
+  width: 1900px;
+  top: calc(50% - 30px);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.mountain-5 {
+  position: absolute;
+  width: 1900px;
+  top: calc(50% - 30px);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.fog-5 {
+  position: absolute;
+  width: 1900px;
+  top: calc(50% - 30px);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.mountain-4 {
+  position: absolute;
+  width: 1900px;
+  top: calc(50% - 30px);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}
+
+.fog-4 {
+  position: absolute;
+  width: 1900px;
+  top: calc(50% - 30px);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.mountain-2 {
+  position: absolute;
+  width: 1900px;
+  top: calc(50% - 30px);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  z-index: 7;
+}
+
+.fog-2 {
+  position: absolute;
+  width: 1900px;
+  top: calc(50% - 30px);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  z-index: 8;
+}
+
+.mountain-1 {
+  position: absolute;
+  width: 1900px;
+  top: calc(50% - 30px);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+
+.fog-1 {
+  position: absolute;
+  width: 1900px;
+  top: calc(50% - 30px);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.mountain-0 {
+  position: absolute;
+  width: 1900px;
+  top: calc(50% - 30px);
+  left: calc(50%);
+  transform: translate(-50%, -50%);
+  z-index: 11;
 }
