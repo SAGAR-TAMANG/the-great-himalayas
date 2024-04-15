@@ -1,3 +1,9 @@
+window.addEventListener("load", function() {
+  console.log("Page fully loaded");
+  document.getElementById("loading-screen").style.display = "none";
+  document.getElementById("main").style.display = "block";
+});
+
 const parallax_el = document.querySelectorAll(".parallax");
 const main = document.querySelector("main");
 

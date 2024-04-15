@@ -31,24 +31,33 @@
     </nav>
   </header>
 
-  <div id=""></div>
-  <main>
-    <div class="vignette hide" id="particles-js"></div>
-    <img src="img/rays.png" alt="" class="rays hide">
-    <img src="img/background.png" data-speedx="0.3" data-speedy="0.25" data-distance="+200" alt="" class="parallax bg-image">
-    <img src="img/mountain5.png" data-speedx="0.27" alt="" data-speedy="0.3" data-distance="-200" class="parallax mountain-5">
-    <img src="img/fog5.png" alt="" data-speedx="0.19" data-speedy="0.17" data-distance="1200" class="parallax fog-5">
-    <img src="img/mountain4.png" alt="" data-speedx="0.12" data-speedy="0.19" data-distance="1400" class="parallax mountain-4">
-    <img src="img/fog4.png" alt="" data-speedx="0.16" data-speedy="0.12" data-distance="1600" class="parallax fog-4">
-    <div class="text parallax">
-      <h2>Nepal</h2>
-      <h1>The Great Himalayas</h1>
-    </div>
-    <img src="img/mountain2.png" alt="" data-speedx="0.15" data-speedy="0.15" data-distance="1800" class="parallax mountain-2">
-    <img src="img/fog2.png" alt="" data-speedx="0.2" data-speedy="0.08" data-distance="2000" class="parallax fog-2">
-    <img src="img/mountain1.png" alt="" data-speedx="0.08" data-speedy="0.12" data-distance="2200" class="parallax mountain-1">
-    <img src="img/fog1.png" alt="" data-speedx="0.13" data-speedy="0.09" data-distance="2400" class="parallax fog-1">
-    <img src="img/group.png" alt="" data-speedx="0.1" data-speedy="0.1" data-distance="2600" class="parallax mountain-0">
+  <div id="loading-screen">
+    <svg class="tea" width="37" height="48" viewbox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z" stroke="var(--secondary)" stroke-width="2"></path>
+      <path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34" stroke="var(--secondary)" stroke-width="2"></path>
+      <path id="teabag" fill="var(--secondary)" fill-rule="evenodd" clip-rule="evenodd" d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"></path>
+      <path id="steamL" d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="var(--secondary)"></path>
+      <path id="steamR" d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13" stroke="var(--secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    </svg>
+  </div>
+  
+  <main style="display: none;" id="main">
+  <div class="vignette hide" id="particles-js"></div>
+  <img src="img/rays.png" alt="" class="rays hide">
+  <img src="img/background.png" data-speedx="0.3" data-speedy="0.25" data-distance="+200" alt="" class="parallax bg-image">
+  <img src="img/mountain5.png" data-speedx="0.27" alt="" data-speedy="0.3" data-distance="-200" class="parallax mountain-5">
+  <img src="img/fog5.png" alt="" data-speedx="0.19" data-speedy="0.17" data-distance="1200" class="parallax fog-5">
+  <img src="img/mountain4.png" alt="" data-speedx="0.12" data-speedy="0.19" data-distance="1400" class="parallax mountain-4">
+  <img src="img/fog4.png" alt="" data-speedx="0.16" data-speedy="0.12" data-distance="1600" class="parallax fog-4">
+  <div class="text parallax">
+    <h2>Nepal</h2>
+    <h1>The Great Himalayas</h1>
+  </div>
+  <img src="img/mountain2.png" alt="" data-speedx="0.15" data-speedy="0.15" data-distance="1800" class="parallax mountain-2">
+  <img src="img/fog2.png" alt="" data-speedx="0.2" data-speedy="0.08" data-distance="2000" class="parallax fog-2">
+  <img src="img/mountain1.png" alt="" data-speedx="0.08" data-speedy="0.12" data-distance="2200" class="parallax mountain-1">
+  <img src="img/fog1.png" alt="" data-speedx="0.13" data-speedy="0.09" data-distance="2400" class="parallax fog-1">
+  <img src="img/group.png" alt="" data-speedx="0.1" data-speedy="0.1" data-distance="2600" class="parallax mountain-0">
   </main>
   
   <script src="js/particles.js"></script>
