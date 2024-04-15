@@ -70,7 +70,7 @@
 
 (#about-the-project)
 
-This project aims to scrape job listings from Naukri.com using Selenium.
+This project aims to demonstrate a parallax 3D website that can be created using simple technologies.
 
 Contributions are welcome! Please see the [Contributing](#contributing) section to get started.
 
