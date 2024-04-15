@@ -19,7 +19,7 @@
   <p align="center">
     A demonstration of parallax website.
     <br />
-    <a href="https://github.com/SAGAR-TAMANG/the-great-himalayas/README.md"><em>https://thegreathimalayas.sagartamang.com/</em></a>
+    <a href="https://thegreathimalayas.sagartamang.com/"><em>thegreathimalayas.sagartamang.com</em></a>
     <a href="https://github.com/SAGAR-TAMANG/the-great-himalayas/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
