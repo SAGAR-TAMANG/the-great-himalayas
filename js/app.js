@@ -2,8 +2,10 @@ window.addEventListener("load", function() {
   console.log("Page fully loaded");
   document.getElementById("loading-screen").style.display = "none";
   document.getElementById("main").style.display = "block";
+  checkScreenWidth()
 });
 
+// Function to check screen width and show alert if it's a mobile device
 function checkScreenWidth() {
   // Get the screen width
   var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
@@ -15,7 +17,9 @@ function checkScreenWidth() {
   }
 }
 
-window.addEventListener("load", checkScreenWidth);
+// window.addEventListener("load", function() {
+  
+// });
 
 const parallax_el = document.querySelectorAll(".parallax");
 const main = document.querySelector("main");
@@ -106,9 +110,9 @@ timeline
 
 // Particle.js starts
 
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
+// particlesJS.load('particles-js', 'particles.json', function() {
+//   console.log('particles.js loaded - callback');
+// });
 
 /* Otherwise just put the config content (json): */
 
