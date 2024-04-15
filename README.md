@@ -176,4 +176,5 @@ Project Link: [https://github.com/SAGAR-TAMANG/the-great-himalayas](https://gith
 [issues-shield]: https://img.shields.io/github/issues/SAGAR-TAMANG/the-great-himalayas.svg?style=for-the-badge
 [issues-url]: https://github.com/SAGAR-TAMANG/the-great-himalayas/issues
 [license-shield]: https://img.shields.io/github/license/SAGAR-TAMANG/the-great-himalayas.svg?style=for-the-badge
-[linkedin-shield]: https://img.shields.io/github/linkedin/SAGAR-TAMANG/the-great-himalayas.svg?style=for-the-badge
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/sagar-tmg/
