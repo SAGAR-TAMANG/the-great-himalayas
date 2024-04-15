@@ -17,10 +17,6 @@ function checkScreenWidth() {
   }
 }
 
-// window.addEventListener("load", function() {
-  
-// });
-
 const parallax_el = document.querySelectorAll(".parallax");
 const main = document.querySelector("main");
 
@@ -82,15 +78,6 @@ timeline
   )
   .from(
     ".text h2",
-    {
-      y: -150,
-      opacity: 0,
-      duration: 3,
-    },
-    "0.5"
-  )
-  .from(
-    ".text h3",
     {
       y: -150,
       opacity: 0,
