@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/SAGAR-TAMANG/the-great-himalayas">
-    <img src="https://raw.githubusercontent.com/SAGAR-TAMANG/the-great-himalayas/master/img/sagartamang.png" alt="Logo" height="80">
+    <img src="https://raw.githubusercontent.com/SAGAR-TAMANG/the-great-himalayas/master/img/sagartamang.png" alt="Logo" height="200">
   </a>
 
 <h3 align="center">Nepal - The Great Himalayas</h3>
@@ -19,6 +19,7 @@
   <p align="center">
     A demonstration of parallax website.
     <br />
+    <a href="https://github.com/SAGAR-TAMANG/the-great-himalayas/README.md"><em>https://thegreathimalayas.sagartamang.com/»</em></a>
     <a href="https://github.com/SAGAR-TAMANG/the-great-himalayas/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
