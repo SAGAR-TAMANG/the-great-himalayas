@@ -4,6 +4,19 @@ window.addEventListener("load", function() {
   document.getElementById("main").style.display = "block";
 });
 
+function checkScreenWidth() {
+  // Get the screen width
+  var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+  // Check if screen width is below a certain threshold (e.g., 768 pixels)
+  if (screenWidth < 768) {
+    console.log("Small Screen Detected - Please Rotate")
+    document.querySelector(".text h3").style.display = "block";
+  }
+}
+
+window.addEventListener("load", checkScreenWidth);
+
 const parallax_el = document.querySelectorAll(".parallax");
 const main = document.querySelector("main");
 
@@ -65,6 +78,15 @@ timeline
   )
   .from(
     ".text h2",
+    {
+      y: -150,
+      opacity: 0,
+      duration: 3,
+    },
+    "0.5"
+  )
+  .from(
+    ".text h3",
     {
       y: -150,
       opacity: 0,
