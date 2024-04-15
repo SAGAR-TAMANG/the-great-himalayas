@@ -175,4 +175,5 @@ Project Link: [https://github.com/SAGAR-TAMANG/the-great-himalayas](https://gith
 [stars-url]: https://github.com/SAGAR-TAMANG/the-great-himalayas/stargazers
 [issues-shield]: https://img.shields.io/github/issues/SAGAR-TAMANG/the-great-himalayas.svg?style=for-the-badge
 [issues-url]: https://github.com/SAGAR-TAMANG/the-great-himalayas/issues
-[license-shield]: https://img.shields.io/github/license/
+[license-shield]: https://img.shields.io/github/license/SAGAR-TAMANG/the-great-himalayas.svg?style=for-the-badge
+[linkedin-shield]: https://img.shields.io/github/linkedin/SAGAR-TAMANG/the-great-himalayas.svg?style=for-the-badge
